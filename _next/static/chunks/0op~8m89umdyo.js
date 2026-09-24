@@ -3,7 +3,7 @@
     let t = {
         id: "2026",
         relationship: "lover",
-        sender: "Anh",
+        sender: "Anh", 
         recipient: "",
         year: 2026
     };
@@ -53,7 +53,7 @@
         , b = r.ticketError
         , w = "lover" === t.relationship ? "Anh hy vọng điều ước này sẽ trở thành sự thật." : "Tớ hy vọng điều ước này sẽ trở thành sự thật."
         , v = [{
-            src: "./people/emTM02.jpg",
+            src: "people/emTM02.jpg",
             caption: "đèn ông sao của em",
             alt: "Em cầm chiếc đèn ông sao đỏ giữa hai chú thỏ Trung thu"
         }, {
