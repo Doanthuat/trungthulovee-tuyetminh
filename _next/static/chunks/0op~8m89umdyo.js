@@ -426,8 +426,8 @@
     }
     , 65491, e => {
         "use strict";
-        let t = "/lovegift-postbox"
-            , n = "/images"
+        let t = "./lovegift-postbox"
+            , n = "./images"
             , a = {
                 ink: "rgba(253,244,232,0.94)",
                 soft: "rgba(246,229,208,0.62)",
@@ -1649,7 +1649,7 @@
             , a = e.i(70703)
             , r = e.i(65491)
             , l = e.i(58967);
-        function i({ src: e = "/bg-music.mp3", volume: t = .6 }) {
+        function i({ src: e = "./bg-music.mp3", volume: t = .6 }) {
             let a = (0,
                 n.useRef)(null);
             return (0,
@@ -2074,7 +2074,7 @@
                     },
                     children: [(0,
                         t.jsx)(i, {
-                            src: I.music ?? "/bg-music.mp3"
+                            src: I.music ?? "./bg-music.mp3"
                         }), (0,
                             t.jsx)(o, {}), (0,
                                 t.jsx)("div", {
